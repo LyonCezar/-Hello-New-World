@@ -1,0 +1,28 @@
+.content {
+
+    background-color:green;
+    
+}
+
+.content:hover{
+
+    background-color: black;
+    color: green;
+
+}
+
+.link {
+
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 1rem; /* 14px */
+
+}
+
+.link:hover {
+
+    background-color: tomato;
+    color: yellow;
+
+}
