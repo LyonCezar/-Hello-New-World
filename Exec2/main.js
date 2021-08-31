@@ -1,15 +1,16 @@
 console.log('testando')
 
 let div = document.querySelector('.content')
-console.log(div)
 
-let div2 = document.createElement('p')
-div2.innerHTML = 'testando 2'
 
-div.appendChild(div2)
+let div2 = document.createElement('p')// <p></p>
+div2.innerHTML = 'testando 2' //  <p>testando 2</p>
 
-let div3 = document.createElement('div3')
 
+div.appendChild(div2) 
+
+let div3 = document.createElement('div')
+div3.innerHTML = 'div 3'
 div.appendChild(div3)
 
 
